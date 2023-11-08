@@ -54,6 +54,7 @@
     gitlab-ctl reconfigure
     creates=/var/opt/gitlab/bootstrapped
   failed_when: false
+  tag: reconfigure
 
 - name: Create GitLab SSL configuration folder.
   file:
